@@ -11,52 +11,42 @@
           <form action="">
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" value="TR01" disabled>
+                <label class="form-label">รูปภาพ</label>
+                <input type="text" class="form-control" value="Image" disabled>
               </div>
               <div class="col">
-                <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" value="RB02" disabled>
+                <label class="form-label">ชื่อ-สกุล</label>
+                <input type="text" class="form-control" value="ชื่อ-สกุล" disabled>
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เพศ</label>
-                <input type="text" class="form-control" value="ผู้" disabled>
+                <input type="text" class="form-control" value="ชาย" disabled>
               </div>
               <div class="col">
                 <label class="form-label">อายุ</label>
-                <input type="text" class="form-control" value="102 วัน" disabled>
+                <input type="text" class="form-control" value="28 ปี" disabled>
               </div>
             </div>
             <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">วันเกิด</label>
-                <input type="text" class="form-control" value="12-02-2019" disabled>
-              </div>
-              <div class="col">
-                <label class="form-label">สถานะ</label>
-                <input type="text" class="form-control" value="พ่อพันธ์ุ" disabled>
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">สายพันธุ์</label>
-                <input type="text" class="form-control" value="ขนเยอะ" disabled>
-              </div>
               <div class="col">
                 <label class="form-label">ประเภท</label>
-                <input type="text" class="form-control" value="สวยงาม" disabled>
+                <input type="text" class="form-control" value="สมาชิก" disabled>
+              </div>
+              <div class="col">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" value="@gmail.com  " disabled>
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">สายพันธุ์พ่อ</label>
-                <input type="text" class="form-control" value="ขนเยอะ" disabled>
+                <label class="form-label">เบอร์โทร</label>
+                <input type="text" class="form-control" value="000-000-0000" disabled>
               </div>
               <div class="col">
-                <label class="form-label">สายพันธุ์แม่</label>
-                <input type="text" class="form-control" value="สวยงาม" disabled>
+                <label class="form-label">ที่อยู่</label>
+                <input type="text" class="form-control" value="บ้านน้องมนต์คนหลาย 119" disabled>
               </div>
             </div>
           </form>
@@ -75,7 +65,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="fa-solid fa-plus"></i> เพิ่มข้อมูลพนักงาน</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i class="fa-solid fa-plus"></i>เพิ่มข้อมูลพนักงาน</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -83,78 +73,44 @@
           <form action="">
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" placeholder="TR01">
+                <label class="form-label">รูปภาพ</label>
+                <input type="text" class="form-control" placeholder="Image">
               </div>
               <div class="col">
-                <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" placeholder="RB02">
+                <label class="form-label">ชื่อ-สกุล</label>
+                <input type="text" class="form-control" placeholder="ชื่อ-สกุล">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เพศ</label>
-                <input type="text" class="form-control" placeholder="ผู้">
+                <input type="text" class="form-control" placeholder="ชาย">
               </div>
               <div class="col">
                 <label class="form-label">อายุ</label>
-                <input type="text" class="form-control" placeholder="102 วัน">
+                <input type="text" class="form-control" placeholder="28 ปี">
               </div>
             </div>
             <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">วันเกิด</label>
-                <input type="date" class="form-control">
-              </div>
-              <div class="col">
-                <label class="form-label">สถานะ</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>---</option>
-                  <option value="1">คลอดแล้ว</option>
-                  <option value="2">ผสมพันธุ์ติด</option>
-                  <option value="3">ผสมพันธุ์ไม่ติด</option>
-                </select>
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">สายพันธุ์</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>---</option>
-                  <option value="1">ขนเยอะ</option>
-                  <option value="2">เนื้อเยอะ</option>
-                  <option value="3">อร่อย</option>
-                </select>
-              </div>
               <div class="col">
                 <label class="form-label">ประเภท</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>---</option>
-                  <option value="1">สวยงาม</option>
-                  <option value="2">ดีด</option>
-                </select>
+                <input type="text" class="form-control" placeholder="สมาชิก">
+              </div>
+              <div class="col">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="@gmail.com  ">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">สายพันธุ์พ่อ</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>---</option>
-                  <option value="1">ขนเยอะ</option>
-                  <option value="2">เนื้อเยอะ</option>
-                  <option value="3">อร่อย</option>
-                </select>
+                <label class="form-label">เบอร์โทร</label>
+                <input type="text" class="form-control" placeholder="000-000-0000">
               </div>
               <div class="col">
-                <label class="form-label">สายพันธุ์แม่</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>---</option>
-                  <option value="1">ขนเยอะ</option>
-                  <option value="2">เนื้อเยอะ</option>
-                  <option value="3">อร่อย</option>
-                </select>
+                <label class="form-label">ที่อยู่</label>
+                <input type="text" class="form-control" placeholder="บ้านน้องมนต์คนหลาย 119">
               </div>
-            </div> 
+            </div>
           </form>
         </div>
       </div>
@@ -178,82 +134,48 @@
       </div>
       <div class="modal-body">
         <div class="row form-group">
-            <form action="">
-              <div class="row mb-2">
-                <div class="col">
-                  <label class="form-label">รูปภาพ</label>
-                  <input type="text" class="form-control" value="TR01">
-                </div>
-                <div class="col">
-                  <label class="form-label">ชื่อผู้ใ้ช้</label>
-                  <input type="text" class="form-control" value="RB02">
-                </div>
+          <form action="">
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">รูปภาพ</label>
+                <input type="text" class="form-control" value="Image">
               </div>
-              <div class="row mb-2">
-                <div class="col">
-                  <label class="form-label">เพศ</label>
-                  <input type="text" class="form-control" value="ผู้">
-                </div>
-                <div class="col">
-                  <label class="form-label">อายุ</label>
-                  <input type="text" class="form-control" value="102 วัน">
-                </div>
+              <div class="col">
+                <label class="form-label">ชื่อ-สกุล</label>
+                <input type="text" class="form-control" value="ชื่อ-สกุล">
               </div>
-              <div class="row mb-2">
-                <div class="col">
-                  <label class="form-label">วันเกิด</label>
-                  <input type="date" class="form-control">
-                </div>
-                <div class="col">
-                  <label class="form-label">สถานะ</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">คลอดแล้ว</option>
-                    <option value="2">ผสมพันธุ์ติด</option>
-                    <option value="3">ผสมพันธุ์ไม่ติด</option>
-                  </select>
-                </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">เพศ</label>
+                <input type="text" class="form-control" value="ชาย">
               </div>
-              <div class="row mb-2">
-                <div class="col">
-                  <label class="form-label">สายพันธุ์</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">ขนเยอะ</option>
-                    <option value="2">เนื้อเยอะ</option>
-                    <option value="3">อร่อย</option>
-                  </select>
-                </div>
-                <div class="col">
-                  <label class="form-label">ประเภท</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">สวยงาม</option>
-                    <option value="2">ดีด</option>
-                  </select>
-                </div>
+              <div class="col">
+                <label class="form-label">อายุ</label>
+                <input type="text" class="form-control" value="28 ปี">
               </div>
-              <div class="row mb-2">
-                <div class="col">
-                  <label class="form-label">สายพันธุ์พ่อ</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">ขนเยอะ</option>
-                    <option value="2">เนื้อเยอะ</option>
-                    <option value="3">อร่อย</option>
-                  </select>
-                </div>
-                <div class="col">
-                  <label class="form-label">สายพันธุ์แม่</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">ขนเยอะ</option>
-                    <option value="2">เนื้อเยอะ</option>
-                    <option value="3">อร่อย</option>
-                  </select>
-                </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">ประเภท</label>
+                <input type="text" class="form-control" value="สมาชิก">
               </div>
-            </form>
+              <div class="col">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" value="@gmail.com  ">
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">เบอร์โทร</label>
+                <input type="text" class="form-control" value="000-000-0000">
+              </div>
+              <div class="col">
+                <label class="form-label">ที่อยู่</label>
+                <input type="text" class="form-control" value="บ้านน้องมนต์คนหลาย 119">
+              </div>
+            </div>
+          </form>
         </div>
       </div>
       <div class="modal-footer">

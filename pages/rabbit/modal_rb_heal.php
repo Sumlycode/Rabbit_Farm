@@ -12,11 +12,11 @@
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" placeholder="TR01">
+                <input type="text" class="form-control" value="TR01" disabled>
               </div>
               <div class="col">
                 <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" placeholder="RB02">
+                <input type="text" class="form-control" value="RB02" disabled>
               </div>
             </div>
             <div class="row mb-2">
@@ -24,25 +24,22 @@
                 <label class="form-label">วันที่รักษา</label>
                 <input type="text" class="form-control" value="2-12-2022" disabled>
               </div>
-            </div>
-            <div class="row mb-2">
               <div class="col">
                 <label class="form-label">ลักษณะอาการ</label>
-                <input type="text" class="form-control" placeholder="จาม">
+                <input type="text" class="form-control" value="จาม" disabled>
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">การให้ยา</label>
-                <input type="text" class="form-control" placeholder="ให้พารา">
+                <input type="text" class="form-control" value="ให้พารา" disabled>
               </div>
-            </div>
-            <div class="row mb-2">
               <div class="col">
                 <label class="form-label">สถานะ</label>
-                <input type="text" class="form-control" placeholder="หายแล้ว">
+                <input type="text" class="form-control" value="หายแล้ว" disabled>
               </div>
             </div>
+
           </form>
         </div>
       </div>
@@ -53,7 +50,6 @@
   </div>
 </div>
 <!-- End Modal Info Rabbit Heal -->
-
 
 <!-- Modal Add Rabbit Heal -->
 <div class="modal fade" id="addModalRabbitHeal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -69,39 +65,37 @@
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" placeholder="TR01">
+                <input type="text" class="form-control" value="รหัสกรง">
               </div>
               <div class="col">
                 <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" placeholder="RB02">
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">วันที่รักษา</label>
-                <input type="date" class="form-control" >
+                <input type="text" class="form-control" value="รหัสกระต่าย">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">ลักษณะอาการ</label>
-                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
+                <input type="text" class="form-control" value="กรอกรายละเอียด">
+              </div>
+              <div class="col">
+                <label class="form-label">การให้ยา</label>
+                <input type="text" class="form-control" value="กรอกรายละเอียด">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">การให้ยา</label>
-                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
+                <label class="form-label">วันที่รักษา</label>
+                <input type="date" class="form-control">
+              </div>
+              <div class="col">
+                <label class="form-label">สถานะ</label>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>---</option>
+                <option value="1">กำลังรักษา</option>
+                <option value="2">หายแล้ว</option>
+              </select>
               </div>
             </div>
-            <div class="col">
-                  <label class="form-label">สถานะ</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">กำลังรักษา</option>
-                    <option value="2">หายแล้ว</option>
-                </select>
-                </div>
           </form>
         </div>
       </div>
@@ -129,39 +123,37 @@
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" placeholder="TR01">
+                <input type="text" class="form-control" value="TR01">
               </div>
               <div class="col">
                 <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" placeholder="RB02">
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">วันที่รักษา</label>
-                <input type="date" class="form-control" >
+                <input type="text" class="form-control" value="RB02">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">ลักษณะอาการ</label>
-                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
+                <input type="text" class="form-control" value="กรอกรายละเอียด">
+              </div>
+              <div class="col">
+                <label class="form-label">การให้ยา</label>
+                <input type="text" class="form-control" value="กรอกรายละเอียด">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">การให้ยา</label>
-                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
+                <label class="form-label">วันที่รักษา</label>
+                <input type="date" class="form-control" value="กรอกรายละเอียด">
+              </div>
+              <div class="col">
+                <label class="form-label">สถานะ</label>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>---</option>
+                <option value="1">กำลังรักษา</option>
+                <option value="2">หายแล้ว</option>
+              </select>
               </div>
             </div>
-            <div class="col">
-                  <label class="form-label">สถานะ</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>---</option>
-                    <option value="1">กำลังรักษา</option>
-                    <option value="2">หายแล้ว</option>
-                </select>
-                </div>
           </form>
         </div>
       </div>
