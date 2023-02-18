@@ -138,7 +138,7 @@
                 <a style="list-style: none; text-decoration: none;" class="app-logo"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo">
                     <span class="logo-text">จัดการฟาร์มกระต่าย</span>
                 </a>
-            </div><!--//app-branding-->  
+            </div><!--//app-branding gg-->  
             <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
                 <ul class="app-menu list-unstyled accordion" id="menu-accordion">
                     <li class="nav-item">
