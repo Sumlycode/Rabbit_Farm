@@ -135,7 +135,7 @@
         <div class="sidepanel-inner d-flex flex-column">
             <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
             <div class="app-branding">
-                <a style="list-style: none; text-decoration: none;" class="app-logo"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo">
+                <a style="list-style: none; text-decoration: none;" class="app-logo"><img class="logo-icon me-2" src="assets/images/logo.png" alt="logo">
                     <span class="logo-text">จัดการฟาร์มกระต่าย</span>
                 </a>
             </div><!--//app-branding gg-->  
