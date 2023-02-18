@@ -10,7 +10,7 @@
     
     <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="assets/images/logo.ico"> 
+    <link rel="shortcut icon" href="favicon.ico"> 
 
     <!-- FontAwesome JS-->
     <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
@@ -36,55 +36,38 @@
 </head> 
 
 <body class="app">   	
-
-    <!-- include header page -->
-    <?php include_once('template/header.php'); ?>
-
-    <div class="app-wrapper">
-	    <div class="app-content pt-3 p-md-3 p-lg-4">
-		    <div class="container-xl">
-
-          <?php 
-
-            if (!isset($_GET['page']) && empty($_GET['page'])) {
-              include('pages/dashboard/overview.php');
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'vaccine'){
-              include('pages/vaccine/vaccine.php'); 
-            }
-
-            elseif (isset($_GET['page']) && $_GET['page'] == 'general_care'){
-              include('pages/checklist/general_care.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'health'){
-              include('pages/checklist/health.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'breeding'){
-              include('pages/checklist/breeding.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'rabbit_data'){
-              include('pages/rabbit/rb_data.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'rabbit_hb'){
-              include('pages/rabbit/rb_hb.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'rabbit_heal'){
-              include('pages/rabbit/rb_heal.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'admin'){
-              include('pages/members/admin.php'); 
-            }
-            elseif (isset($_GET['page']) && $_GET['page'] == 'emp'){
-              include('pages/members/emp.php'); 
-            }
-          ?> 
-
-		    </div><!--//container-fluid-->
-	    </div><!--//app-content-->
-
-      <!-- include footer page -->
-		  <?php include_once('template/footer.php'); ?>
-
+<div class="list-group">
+    <h4>การดูแลทั่วไป <?php $date = date("d/m/y"); echo $date; ?></h4>
+  <label class="list-group-item">
+    <input class="form-check-input me-1"  type="checkbox" value="">
+    ตรวจเช็ตอุจาระของกระต่ายทุกตัว
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    ตรวจเช็คอาการกระต่ายว่ามีอาการผิดปกติไหม  
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    ให้หญ้ากับกระต่าย
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    ให้อาหารเม็ดกับกระต่าย
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    เก็บข้อมูล ฉี่กระต่าย
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    บันทึกข้อมูล สำหรับกระต่ายที่ผิดปกติ
+  </label>
+  <label class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="">
+    แยกกระต่ายทีครบ30วันออกจากแม่กระต่าย
+  </label>
+</div>
+   
     </div><!--//app-wrapper-->    					
 
     <!-- Javascript -->          
@@ -114,4 +97,3 @@
 
 </body>
 </html> 
-
