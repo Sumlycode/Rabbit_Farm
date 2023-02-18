@@ -10,43 +10,51 @@
         <div class="row form-group">
           <form action="">
             <div class="row mb-2">
-              <div class="col">
+              <div class="col text-center justify-content-center">
                 <label class="form-label">รูปภาพ</label>
-                <input type="text" class="form-control" value="Image" disabled>
+                <div class="" >
+                  <img class="img-thumbnail" src="https://ichef.bbci.co.uk/news/800/cpsprodpb/134CC/production/_125325097_roosterofredjunglefowlgettyimages.png" alt="" width="100" height="100">
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">ชื่อผู้ใช้</label>
+                <input type="text" class="form-control" value="" disabled>
               </div>
               <div class="col">
-                <label class="form-label">ชื่อ-สกุล</label>
-                <input type="text" class="form-control" value="ชื่อ-สกุล" disabled>
+                <label class="form-label">รหัสผ่าน</label>
+                <input type="text" class="form-control" value="" disabled>
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เพศ</label>
-                <input type="text" class="form-control" value="ชาย" disabled>
+                <input type="text" class="form-control" value="" disabled>
               </div>
               <div class="col">
                 <label class="form-label">อายุ</label>
-                <input type="text" class="form-control" value="28 ปี" disabled>
+                <input type="text" class="form-control" value="" disabled>
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">ประเภท</label>
-                <input type="text" class="form-control" value="สมาชิก" disabled>
+                <label class="form-label">วันเกิด</label>
+                <input type="text" class="form-control" value="" disabled>
               </div>
               <div class="col">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" value="@gmail.com  " disabled>
+                  <label class="form-label">เบอร์โทร</label>
+                  <input type="email" class="form-control" value="" disabled>
+                </div>
               </div>
-            </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">เบอร์โทร</label>
-                <input type="text" class="form-control" value="000-000-0000" disabled>
+                <label class="form-label">อีเมล</label>
+                <input type="text" class="form-control" value="" disabled>
               </div>
               <div class="col">
                 <label class="form-label">ที่อยู่</label>
-                <input type="text" class="form-control" value="บ้านน้องมนต์คนหลาย 119" disabled>
+                <input type="text" class="form-control" value="" disabled>
               </div>
             </div>
           </form>
@@ -73,42 +81,39 @@
           <form action="">
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">รูปภาพ</label>
-                <input type="text" class="form-control" placeholder="Image">
+                <label class="form-label">รูปภาพ</label>               
+                <input type="file" class="form-control" id="inputGroupFile02">
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">ชื่อผู้ใช้</label>
+                <input type="text" class="form-control" placelholder="">
               </div>
               <div class="col">
-                <label class="form-label">ชื่อ-สกุล</label>
-                <input type="text" class="form-control" placeholder="ชื่อ-สกุล">
+                <label class="form-label">รหัสผ่าน</label>
+                <input type="text" class="form-control" placelholder="">
               </div>
+              
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เพศ</label>
-                <input type="text" class="form-control" placeholder="ชาย">
+                <input type="text" class="form-control" placelholder="">
               </div>
               <div class="col">
-                <label class="form-label">อายุ</label>
-                <input type="text" class="form-control" placeholder="28 ปี">
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">ประเภท</label>
-                <input type="text" class="form-control" placeholder="สมาชิก">
-              </div>
-              <div class="col">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="@gmail.com  ">
+                <label class="form-label">วันเกิด</label>
+                <input type="date" class="form-control">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
-                <label class="form-label">เบอร์โทร</label>
-                <input type="text" class="form-control" placeholder="000-000-0000">
+                  <label class="form-label">เบอร์โทร</label>
+                  <input type="email" class="form-control" placelholder="">
               </div>
-              <div class="col">
-                <label class="form-label">ที่อยู่</label>
-                <input type="text" class="form-control" placeholder="บ้านน้องมนต์คนหลาย 119">
+                <div class="col">
+                  <label class="form-label">ที่อยู่</label>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
               </div>
             </div>
           </form>
@@ -136,43 +141,45 @@
         <div class="row form-group">
           <form action="">
             <div class="row mb-2">
-              <div class="col">
+              <div class="col text-center">
                 <label class="form-label">รูปภาพ</label>
-                <input type="text" class="form-control" value="Image">
+                <input type="file" class="form-control" id="inputGroupFile02">
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label class="form-label">ชื่อผู้ใช้</label>
+                <input type="text" class="form-control" value="">
               </div>
               <div class="col">
-                <label class="form-label">ชื่อ-สกุล</label>
-                <input type="text" class="form-control" value="ชื่อ-สกุล">
+                <label class="form-label">รหัสผ่าน</label>
+                <input type="text" class="form-control" value="">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เพศ</label>
-                <input type="text" class="form-control" value="ชาย">
+                <input type="text" class="form-control" value="">
               </div>
               <div class="col">
-                <label class="form-label">อายุ</label>
-                <input type="text" class="form-control" value="28 ปี">
-              </div>
-            </div>
-            <div class="row mb-2">
-              <div class="col">
-                <label class="form-label">ประเภท</label>
-                <input type="text" class="form-control" value="สมาชิก">
-              </div>
-              <div class="col">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" value="@gmail.com  ">
+                <label class="form-label">วันเกิด</label>
+                <input type="date" class="form-control">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">เบอร์โทร</label>
-                <input type="text" class="form-control" value="000-000-0000">
+                <input type="text" class="form-control" value="">
               </div>
               <div class="col">
+                  <label class="form-label">อีเมล</label>
+                  <input type="email" class="form-control" value="">
+                </div>
+              </div>
+            <div class="row mb-2">
+              <div class="col">
                 <label class="form-label">ที่อยู่</label>
-                <input type="text" class="form-control" value="บ้านน้องมนต์คนหลาย 119">
+                <input type="text" class="form-control" value="">
               </div>
             </div>
           </form>

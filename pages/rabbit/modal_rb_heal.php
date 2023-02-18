@@ -65,21 +65,21 @@
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">รหัสกรง</label>
-                <input type="text" class="form-control" value="รหัสกรง">
+                <input type="text" class="form-control" placeholder="รหัสกรง">
               </div>
               <div class="col">
                 <label class="form-label">รหัสกระต่าย</label>
-                <input type="text" class="form-control" value="รหัสกระต่าย">
+                <input type="text" class="form-control" placeholder="รหัสกระต่าย">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col">
                 <label class="form-label">ลักษณะอาการ</label>
-                <input type="text" class="form-control" value="กรอกรายละเอียด">
+                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
               </div>
               <div class="col">
                 <label class="form-label">การให้ยา</label>
-                <input type="text" class="form-control" value="กรอกรายละเอียด">
+                <input type="text" class="form-control" placeholder="กรอกรายละเอียด">
               </div>
             </div>
             <div class="row mb-2">
