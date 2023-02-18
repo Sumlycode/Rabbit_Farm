@@ -1,6 +1,6 @@
 <h4 class="app-page-title">
     <span class="nav-icon">
-        <span><i class="fa-solid fa-pen-to-square"></i> จัดการข้อมูลพนักงาน</span>
+        <span><i class="fa-solid fa-pen-to-square"></i>จัดการข้อมูลพนักงาน</span>
     </span>  
 </h4>
 <hr class="mb-4">
@@ -9,7 +9,7 @@
         <div class="app-card app-card-settings shadow-sm p-4">
             <div class="app-card-body">
                 <div class=".table-responsive">
-                    <button data-bs-toggle="modal" data-bs-target="#addModalemp" class="btn btn-success"><i class="fa-solid fa-plus"></i> New</button>
+                    <button data-bs-toggle="modal" data-bs-target="#addModalemp" class="btn btn-success"><i class="fa-solid fa-plus"></i>เพิ่มข้อมูลพนักงาน</button>
                     <hr class="mb-3">
                     <div class="table table-borderless mb-0">
                         <table id="myTable" class="table table-bordered" style="width:100%;">
